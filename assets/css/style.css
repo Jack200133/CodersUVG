@@ -520,6 +520,10 @@ section {
   text-align: center;
 }
 
+#clientsr {
+  justify-content: space-evenly;
+}
+
 .clients .col-lg-2 {
   display: flex;
   align-items: center;
@@ -527,7 +531,7 @@ section {
 }
 
 .clients img {
-  width: 50%;
+  width: 80%;
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
   display: inline-block;
